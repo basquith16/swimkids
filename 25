@@ -1,0 +1,7 @@
+     |  ^
+  26 |
+  27 | class SessionNavigation extends React.Component {
+  28 |
+    at Parser.pp.raise (/Users/mac/Desktop/test_prod/gameNight/node_modules/babylon/lib/parser/location.js:22:13)
+    at Parser.pp.unexpected (/Users/mac/Desktop/test_prod/gameNight/node_modules/babylon/lib/parser/util.js:91:8)
+    at Parser.pp.parseExprAtom (/Users/mac/Desktop/test_prod/gameNight/node_modules/babylon/lib/parser/expression.js:510:12)
