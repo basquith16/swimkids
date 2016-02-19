@@ -26,6 +26,24 @@ $(document).ready(function() {
     offset: '99%'
   });
 
+  $('#sharky').waypoint(function() {
+    $('#sharky').addClass('bounceInRight')
+  }, {
+    offset: 'none'
+  });
+
+  $('#title').waypoint(function() {
+    $('#title').addClass('tada')
+  }, {
+    offset: 'none'
+  });
+
+  $('#subTitle').waypoint(function() {
+    $('#subTitle').addClass('swing')
+  }, {
+    offset: 'none'
+  });
+
   $('#moreButton').on('click', function() {
     $('#moreButton').fadeOut();
     $('#hidden').toggleClass('hidden');

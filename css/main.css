@@ -171,6 +171,9 @@ nav a:hover {
      transition: 2s all ease;
    }
    #title {
+     -webkit-animation-delay: 1.3s; /* Chrome, Safari, Opera */
+     animation-delay: 1.3s;
+     -webkit-animation-duration: 1s;
      font-size: 80px;
      font-weight: 700;
      color: rgb(205, 29, 44);
@@ -179,6 +182,9 @@ nav a:hover {
    }
 
    #subTitle {
+     -webkit-animation-delay: 1s; /* Chrome, Safari, Opera */
+     animation-delay: 1s;
+     -webkit-animation-duration: 1s;
      color: white;
      font-weight: 200;
      padding-left: 10%;
@@ -426,6 +432,7 @@ section#download .platforms > div {
 
 #sharky {
   margin: -250px 0 0 475px;
+  -webkit-animation-duration: 3s;
 }
 
 #aboutBrian, #lifeLyrics {
