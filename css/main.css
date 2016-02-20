@@ -176,7 +176,7 @@ nav a:hover {
      -webkit-animation-duration: 1s;
      font-size: 80px;
      font-weight: 700;
-     color: rgb(205, 29, 44);
+     color: #008ae6;
      text-shadow: 1px 1px white;
      padding: 5% 0 0 10%;
    }
@@ -330,7 +330,7 @@ nav a:hover {
 
    section#parallax {
      height: 500px;
-     background-image: url('../img/technology.jpeg');
+     background-image: url('../img/sharky.jpeg');
      background-repeat: no-repeat;
      background-attachment: fixed;
      background-size: cover;
